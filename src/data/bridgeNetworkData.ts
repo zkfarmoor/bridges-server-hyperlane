@@ -1485,4 +1485,20 @@ export default [
       "Polygon"
     ]
   },
+  {
+    id: 72,
+    displayName: "Hyperlane",
+    bridgeDbName: "hyperlane",
+    iconLink: "chain:hyperlane",
+    largeTxThreshold: 10000,
+    url: "https://www.hyperlane.xyz",
+    chains: [
+      "Ethereum",
+      "Arbitrum",
+      "Optimism",
+      "BSC",
+      "Base",
+      "Linea", 
+    ],
+  },
 ] as BridgeNetwork[];
